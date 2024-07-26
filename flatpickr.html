@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in Check-out Calendar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <label hidden for="calendar">Calendar:</label>
+            <input hidden type="text" id="calendar" disabled>
+        </div>
+        <div>
+            <button id="book"><span>Book</span></button>
+            <button id="clear"><span>Clear</span></button>
+        </div>
+        <div class="messages">
+            <p id="message-text"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/th.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
